@@ -1,6 +1,6 @@
 <ol>
 <li>Read the first lines of the file.<br>
-<code>data <- read.table(file, header = TRUE,  sep = ";", na.strings = "?", nrows = 5)<code>
+<code>data <- read.table(file, header = TRUE,  sep = ";", na.strings = "?", nrows = 5)</code><br>
 The first date is 16/12/2006 17:24:00 and each row is increment by one minute, i.e. the next rows are 16/12/2006 17:25:00, 16/12/2006 17:26:00, and so on.
 </li>
 <li>Find the minutes between 2006-12-16 17:24:00 and 2007-02-01 00:00:00<br>
